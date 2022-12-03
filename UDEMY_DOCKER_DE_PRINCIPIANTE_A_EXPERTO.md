@@ -15,13 +15,21 @@
 
 	```
 	3. Crear imagen:
-		docker build --tag NombreImagen:Version -f nombreArchivoDockerfile .
+	
+	```
+	docker build --tag NombreImagen:Version -f nombreArchivoDockerfile .
 
 - Ver imagenes disponibles
+
+	```
 	docker images
 	docker images | grep NombreImagen
+	
 - Ver capas de imagen:
- 	docker history -H NombreImagen:tag
+ 	```
+	docker history -H NombreImagen:tag
+	
+	
 
 
 
